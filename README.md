@@ -21,7 +21,9 @@ Copy the translator.py file into your HexChat scripts directory.
 If you don't have a scripts directory, you can create one and copy the file there. For example:
 
 mkdir -p ~/.config/hexchat/addons
+
 cd ~/.config/hexchat/addons
+
 wget https://github.com/your_username/HexChat-Translator/raw/main/translator.py
 
 
@@ -34,6 +36,7 @@ Open HexChat and run this command:
 If everything is fine, you will see this message in the console:
 
 HexChat Translator v15.1 loaded successfully. Using Google Translate.
+
 🔥 DEBUG: Script started without errors. Ready to translate.
 
 3️⃣ Basic usage
@@ -45,7 +48,9 @@ To translate a message, use /say before the text:
 Result in the chat:
 
 [ES] hello final test
+
 [EN] Hello final test
+
 [JA] こんにちは最終テスト
 
 4️⃣ To reload or update the script
@@ -53,6 +58,7 @@ Result in the chat:
 If you need to reload the script after modifying it:
 
 /py unload translator.py
+
 /py load ~/.config/hexchat/addons/translator.py
 
 5️⃣ To load the script automatically on HexChat startup (Optional)
