@@ -24,7 +24,7 @@ mkdir -p ~/.config/hexchat/addons
 
 cd ~/.config/hexchat/addons
 
-wget https://github.com/your_username/HexChat-Translator/raw/main/translator.py
+wget https://github.com/zcomv2/hexchattranslator/blob/main/translator.py
 
 
 2️⃣ Load the script in HexChat
