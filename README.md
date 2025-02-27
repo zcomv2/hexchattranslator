@@ -53,6 +53,29 @@ Result in the chat:
 
 [JA] こんにちは最終テスト
 
+
+
+#### **Manually translating to all supported languages**
+To manually translate a message into **English, Japanese, Russian, Chinese, and French**, use `/trans`:
+
+/trans Hola, ¿cómo estás?
+
+Result in the chat:
+
+[ES] Hola, ¿cómo estás?
+
+[EN] Hello, how are you?
+
+[JA] こんにちは、お元気ですか？
+
+[RU] Привет, как дела?
+
+[ZH] 你好，你好吗？
+
+[FR] Bonjour, comment ça va 
+
+
+
 4️⃣ To reload or update the script
 
 If you need to reload the script after modifying it:
